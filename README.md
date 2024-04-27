@@ -3,7 +3,9 @@
 Make a graph for each driver of HR and blood pressure readings by examination over a period of time, in order. Also note on the graphs when the driver's limits (health) were changed. In this way we want to check how the certificates (medicine) affect the drivers' health indicators. This report is planned to be provided to client companies on a regular basis, so that they in turn regulate driver health in some way. It is also possible to perform additional analytics on how the change of boundaries affected the drivers' health indicators (visualization, etc.).
 ## How to run and the results
 **1.	Upload driver boundary changes according to the specified script from postgres for the required period of time for the required organization:**
-'''WITH RankedEvents AS (
+
+```sql
+WITH RankedEvents AS (
     SELECT
         e.personnel_number,
         b.employee_id,
@@ -22,6 +24,7 @@ SELECT
 FROM
     RankedEvents
 WHERE
-    rn = 1;'''
+    rn = 1;
+```
 
 
