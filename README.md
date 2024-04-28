@@ -27,6 +27,7 @@ WHERE
     rn = 1;
 ```
 As a result, we get the following data in csv format:
+
 ![image](https://github.com/CompilerCaster/drivers_health_certificate/assets/128957307/5571a1a9-31a6-4785-8d36-93dd668c78a0)
 
 
