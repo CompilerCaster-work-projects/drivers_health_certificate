@@ -65,6 +65,10 @@ where a.type = 'AFTER_TRIP' and o.id in (1464, 1465, 1466, 1467, 1468, 1469, 147
 and a.started_at between '2023-08-01 00:00:00.000 +0300' and '2024-01-31 23:59:59.999 +0300'
 order by a.started_at desc;
 ```
+As a result, we get the following data in csv format:
+
+![image](https://github.com/CompilerCaster/drivers_health_certificate/assets/128957307/dd72ffeb-5027-4122-8c92-87ec17fe07bc)
+
 
 
 
