@@ -69,6 +69,9 @@ As a result, we get the following data in csv format:
 
 ![image](https://github.com/CompilerCaster/drivers_health_certificate/assets/128957307/dd72ffeb-5027-4122-8c92-87ec17fe07bc)
 
+**3. Run the specified python script and get a pdf file with graphs for each driver, as well as statistical data and graphs for building a report in excel, and then manually build a report in excel. The result should be two files:**
+- An excel report with which we can see how the drivers' health indicators (blood pressure and pulse) have changed after they expanded their individual medical boundaries, how important it is for us;
+- A pdf report with which we can see in detail graphs of exactly what the drivers' health indicators looked like before and after they expanded their individual boundaries for each driver;
 
 
 
