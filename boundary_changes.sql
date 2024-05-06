@@ -18,3 +18,5 @@ FROM
     RankedEvents
 WHERE
     rn = 1;
+
+$$ language plpgsql;
