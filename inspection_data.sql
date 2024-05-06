@@ -29,3 +29,5 @@ on t.id = a.id
 where a.type = 'AFTER_TRIP' and o.id in (1464, 1465, 1466, 1467, 1468, 1469, 1470, 1471, 1472, 1473, 1474, 1475)
 and a.started_at between '2023-08-01 000000.000 +0300' and '2024-01-31 235959.999 +0300'
 order by a.started_at desc;
+
+$$ language plpgsql;
